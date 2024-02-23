@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#d3cece,#0bbb0b88), url('/images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.nav-bar{
+    margin: 0 5%;
+    padding: 10px;
+    display: flex; justify-content: space-between;   
+    border-radius: 5px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #000;
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);*/
+}
+.nav-bar h1{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.nav-bar ul {
+    display: flex;    
+}
+.nav-bar ul li{
+    list-style: none;
+    margin: 0 9px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 24px;
+}
+.nav-bar ul li a:hover{
+    border-bottom: 1px solid #000;
+    margin: 5px;
+}
+.home-page{
+    margin: 0 5%;
+    text-align: center;
+}
+.home-page h1{
+    margin-top: 10%;
+    font-size: 40px;
+}
+.home-page p{
+    margin-top: 5%;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #fff;
+}
+.btn{
+    padding: 10px;
+    background:transparent ;
+    border: 2px solid #fff; 
+    color: #fff;  
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.home-page .btn{
+    margin-top: 5%;
+}
+.home-page .btn:hover{
+    background-color: #000;
+    
+}
+.btn-2{
+    background-color: #000;
+}
+.home-page .btn-2:hover{
+    background-color: transparent;
+    border: 2px solid #000; 
+}
